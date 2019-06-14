@@ -51,6 +51,10 @@ Plugin 'vim-scripts/sessionman.vim'
 Plugin 'honza/vim-snippets'
 Plugin 'SirVer/ultisnips'
 Plugin 'lervag/vimtex'
+Plugin 'bling/vim-bufferline'
+Plugin 'powerline/powerline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 filetype plugin indent on
 
@@ -105,8 +109,12 @@ let g:ycm_use_ultisnips_completer = 1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vimtex
 let g:vimtex_view_method='zathura'
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" airline
+let g:airline_theme='minimalist'
 " => General
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" test
 " Sets how many lines of history VIM has to remember
 set history=500
 
