@@ -106,6 +106,8 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " youcompleteme
 let g:ycm_use_ultisnips_completer = 1
+
+let g:ycm_confirm_extra_conf = 0
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " vimtex
 let g:vimtex_view_method='zathura'
